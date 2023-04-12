@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 1213px;
+    height: 854px;
+
+    background-color: #FFFFFF;
+}
+
+.container-menu {
+    width: 952px;
+    height: 136px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.container-user {
+    width: 91px;
+    height: 40px;
+    color: #151B32;
+    font-size: 32px;
+}
+
+.search {
+    width: 514px;
+    height: 56px;
+    border: 1px solid #bebebe;
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+
+.container-items {
+    display: flex;
+    gap: 80px;
+    margin-top: 16px;
+
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    width: 534px;
+    height: 56px;
+    border-radius: 1px solid #bebebe;
+    justify-content: space-around;
+
+
+}
+
+.items div {
+    width: 92px;
+    height: 53px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+.items a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #151B32;
+}
+
+.two:hover {
+    border: 1px solid #BFC8E5;
+    box-shadow: 0px 8px 23px 0px #DAE0F9B2;
+    background-color: #849FFF;
+}
+
+.one:hover {
+    border: 1px solid #BFC8E5;
+    box-shadow: 0px 8px 23px 0px #DAE0F9B2;
+    background-color: #849FFF;
+}
+
+.three:hover {
+    border: 1px solid #BFC8E5;
+    box-shadow: 0px 8px 23px 0px #DAE0F9B2;
+    background-color: #849FFF;
+}
+
+.for:hover {
+    border: 1px solid #BFC8E5;
+    box-shadow: 0px 8px 23px 0px #DAE0F9B2;
+    background-color: #849FFF;
+}
+
+.five:hover {
+    border: 1px solid #BFC8E5;
+    box-shadow: 0px 8px 23px 0px #DAE0F9B2;
+    background-color: #849FFF;
+}
+
+.menu-items {
+    width: 1013px;
+    height: 128px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.items-one {
+    display: flex;
+    width: 327px;
+    height: 208px;
+
+    padding: 24px;
+
+
+}
+
+.one-btn {
+    margin-left: 16px;
+}
+
+.one-btn div a {
+    text-decoration: none;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+}
+
+.items-two {
+    display: flex;
+    width: 327px;
+    height: 208px;
+
+    padding: 24px;
+
+
+}
+
+.two-btn {
+    margin-left: 16px;
+}
+
+.two-btn div a {
+    text-decoration: none;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+
+}
+
+.items-three {
+    display: flex;
+    width: 327px;
+    height: 208px;
+
+    padding: 24px;
+
+}
+
+.three-btn {
+    margin-left: 16px;
+}
+
+.three-btn div a {
+    text-decoration: none;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+
+}
+
+.items-for {
+    display: flex;
+    width: 327px;
+    height: 208px;
+
+    padding: 24px;
+
+
+}
+
+.for-btn {
+    margin-left: 16px;
+}
+
+.for-btn div a {
+    text-decoration: none;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+
+}
+
+.items-five {
+    display: flex;
+    width: 327px;
+    height: 208px;
+
+    padding: 24px;
+
+}
+
+.five-btn {
+    margin-left: 16px;
+}
+
+.five-btn div a {
+    text-decoration: none;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.items-six {
+    display: flex;
+    width: 327px;
+    height: 208px;
+    padding: 24px;
+}
+
+.six-btn {
+    margin-left: 16px;
+}
+
+.six-btn div a {
+    text-decoration: none;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+}
+
+.items-one:hover {
+    border: 1px solid #BFC8E5;
+    box-shadow: 0px 8px 23px 0px #DAE0F9B2;
+    border-radius: 16px;
+}
+
+.items-two:hover {
+    border: 1px solid #BFC8E5;
+    box-shadow: 0px 8px 23px 0px #DAE0F9B2;
+    border-radius: 16px;
+}
+
+.items-three:hover {
+    border: 1px solid #BFC8E5;
+    box-shadow: 0px 8px 23px 0px #DAE0F9B2;
+    border-radius: 16px;
+}
+
+.items-for:hover {
+    border: 1px solid #BFC8E5;
+    box-shadow: 0px 8px 23px 0px #DAE0F9B2;
+    border-radius: 16px;
+}
+
+.items-five:hover {
+    border: 1px solid #BFC8E5;
+    box-shadow: 0px 8px 23px 0px #DAE0F9B2;
+    border-radius: 16px;
+}
+
+.items-six:hover {
+    border: 1px solid #BFC8E5;
+    box-shadow: 0px 8px 23px 0px #DAE0F9B2;
+    border-radius: 16px;
+}
+.link-btn a {
+    padding: 5px;
+}
